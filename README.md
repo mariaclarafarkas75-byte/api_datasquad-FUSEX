@@ -167,14 +167,11 @@ Sprint | Previsão | Status|
 
 # Equipe
 
-| Função        | Nome                                    | Github                                                                                                                                              |
-| ------------- | --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-|| Product Owner | Wanderson Ricardo dos Santos            | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-thebadge&logo=github&logoColor=white)]
-(https://github.com/Wander717)               |
-              |
-| Scrum Master  | Maria Clara Prado Farkas                | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mariaclarafarkas75-byte) |
-| Team Member   | Breno Souza de Andrade                  | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/brenobsa)                |
-| Team Member   | Matheus Henrique Ambrósio do Nascimento | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Froguie)                 |
-| Team Member   | Guilhermina Moreira D'Onofrio           | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/guismdonofrio)           |
-| Team Member   | Rubens Ferreira Venancio                | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rubensvnc/)              |
-
+| Função        | Nome                | Github |
+| ------------- | -------------------- | ------ |
+| Product Owner | Wanderson Ricardo dos Santos          | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Wander717) |
+| Scrum Master  | Maria Clara Prado Farkas            | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mariaclarafarkas75-byte) |
+| Team Member   | Breno Souza de Andrade                | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/brenobsa) |
+| Team Member   | Guilhermina Moreira D'Onofrio                | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/guismdonofrio) |
+| Team Member   | Matheus Henrique Ambrosio do Nascimento                | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Froguie) |
+| Team Member   | Rubens Ferreira Venancio                | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rubensvnc/) |
