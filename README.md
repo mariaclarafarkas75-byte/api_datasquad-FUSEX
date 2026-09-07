@@ -25,9 +25,9 @@ Na etapa de faturamento, a aplicação padroniza o recebimento dos espelhos envi
 ## Backlog do Produto <a id="backlog"></a>
 
 | Rank | Prioridade | User Story                                                                                                                                                                                                                   | Estimativa | Sprint |
-| ---- |------------| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------ |
-| 1    | Alta       | Como beneficiário, quero anexar o encaminhamento médico digitalizado ao meu cadastro, para que ele sirva de base na criação da pré-guia.                                                                                |            | 1      |
-| 2    | Alta       | Como beneficiário, quero criar a pré-guia de forma digital informando a OCS e os procedimentos/exames a serem realizados, para que eu não precise ir pessoalmente ao FUSEX com o encaminhamento em mãos.                                                                                                               |            | 1      |
+| ---- |------------| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |------------| ------ |
+| 1    | Alta       | Como beneficiário, quero anexar o encaminhamento médico digitalizado ao meu cadastro, para que ele sirva de base na criação da pré-guia.                                                                                | 8          | 1      |
+| 2    | Alta       | Como beneficiário, quero criar a pré-guia de forma digital informando a OCS e os procedimentos/exames a serem realizados, para que eu não precise ir pessoalmente ao FUSEX com o encaminhamento em mãos.                                                                                                               | 5          | 1      |
 | 3    | Alta       | Como beneficiário, quero enviar a pré-guia preenchida para o setor de guias do FUSEX, para que ela seja analisada por um funcionário.                                                                        |            |        |
 | 4    | Baixa      | Como funcionário do FUSEX, quero visualizar a lista de pré-guias pendentes de análise, para que eu possa organizá-las e analisá-las por ordem de chegada.                                                                                                                 |            |        |
 | 5    | Media      | Como funcionário do FUSEX, quero visualizar os detalhes de uma pré-guia (encaminhamento, OCS escolhida, procedimentos), para que eu possa decidir se ela está apta a seguir no processo.                                                                                                           |            |        |
@@ -50,14 +50,14 @@ Na etapa de faturamento, a aplicação padroniza o recebimento dos espelhos envi
 
 ### **Sprint 1: Execução e Planejamento**
 
-* **Capacidade Estimada da Equipe:**
-* **Meta da Sprint:** User Story de rank 1.
-* **Metas Extras:** User Story de rank 2.
+* **Capacidade Estimada da Equipe:** 13 Story Points.
+* **Meta da Sprint:** User Story de rank 1 e 2.
+* **Metas Extras:** -
 
 | Id                                                                              | rank | Prioridade | User Story                                                                                                                                    | Estimativa | Sprint |
-| ------------------------------------------------------------------------------- | ---- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------ |
-| [Anexação do encaminhamento médico digitalizado](docs/sprint/Sprint-1/US1.md) | 1    | Alta       | Como beneficiário, quero anexar o encaminhamento médico digitalizado ao meu cadastro, para que ele sirva de base na criação da pré-guia. |            | 1      |
-| [Criação digital da pré-guia](docs/sprint/Sprint-1/US2.md)                      | 2    | Alta       | Como beneficiário, quero criar a pré-guia de forma digital informando a OCS e os procedimentos/exames a serem realizados, para que eu não precise ir pessoalmente ao FUSEX com o encaminhamento em mãos.                                |            | 1      |
+| ------------------------------------------------------------------------------- | ---- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------- |------------| ------ |
+| [Anexação do encaminhamento médico digitalizado](docs/sprint/Sprint-1/US1.md) | 1    | Alta       | Como beneficiário, quero anexar o encaminhamento médico digitalizado ao meu cadastro, para que ele sirva de base na criação da pré-guia. | 8          | 1      |
+| [Criação digital da pré-guia](docs/sprint/Sprint-1/US2.md)                      | 2    | Alta       | Como beneficiário, quero criar a pré-guia de forma digital informando a OCS e os procedimentos/exames a serem realizados, para que eu não precise ir pessoalmente ao FUSEX com o encaminhamento em mãos.                                | 5          | 1      |
 
 ### Definition of Ready (DoR)
 
@@ -75,13 +75,11 @@ Para uma User Story ser considerada **completa**, os seguintes critérios devem 
 
 - O código está escrito, testado e limpo (seguindo os padrões da equipe).
 
-- A funcionalidade deve estar integrada à branch **develop** do repositório [BD_2S_backend](https://github.com/rubensvnc/BD_2S_backend).
+- A funcionalidade deve estar integrada à branch **develop** do repositório [BD_3S_BACKEND](https://github.com/Wander717/BD_3S_BACKEND).
 
 - Os **critérios de aceitação** de uma **User Story** foram completos.
 
-- The interface complies with **usability principles**, providing clear and consistent navigation for the end user.
-
-- A interface leva em consideração a facilidade de uso ao usuário, sempre exigindo o mínimo de interações possível.
+- A interface leva em consideração a facilidade de uso ao usuário.
 
 - A funcionalidade foi **testada** e **aprovada** pelo **Product Owner (PO)**.
 
@@ -93,9 +91,9 @@ Para uma User Story ser considerada **completa**, os seguintes critérios devem 
 
 ## Cronograma de Sprints <a id="sprint"></a>
 
-Sprint | Previsão | Status|
-|------|--------|------|
-|Sprint 01 | 07/09/2026 | Não iniciado |
+Sprint | Previsão | Status       |
+|------|--------|--------------|
+|Sprint 01 | 07/09/2026 | Em andamento |
 |Sprint 02| 05/10/2026| Não iniciado |
 |Sprint 03| 02/11/2026 | Não iniciado |
 
