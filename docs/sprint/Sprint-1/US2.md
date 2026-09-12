@@ -16,14 +16,7 @@ A pré-guia é o documento criado pelo beneficiário dentro do sistema, com base
 4. O beneficiário informa um ou mais procedimentos/exames a serem realizados.
 5. O sistema salva a pré-guia no banco com status "Pendente", vinculada ao beneficiário e ao encaminhamento correspondente, através de uma requisição REST.
 ## Critérios de aceitação:
-- Certifique-se que o banco de dados esteja populado com ao menos um usuário Beneficiário, um Encaminhamento válido e uma OCS cadastrada.
-- Certifique-se de criar as Entidades JPA (`@Entity`) de cada tabela necessária na realização desta task do projeto, seguindo os princípios de Orientação a Objetos (encapsulamento de atributos, uso de getters/setters).
-- Certifique-se de criar os Repositories (Spring Data JPA, `extends JpaRepository`) de cada tabela necessários na realização desta task do projeto.
-- Certifique-se de que queries customizadas (métodos derivados ou `@Query`) fiquem **exclusivamente** nos Repositories, nunca no Controller ou na Service.
-- Certifique-se de que consultas envolvendo `JOIN` (ex: pré-guia + encaminhamento + OCS) sejam implementadas no Repository da entidade principal da consulta, via relacionamento JPA (`@ManyToOne`/`@OneToOne`) ou `@Query` explícita.
-- Certifique-se de que o Repository (ou a Service) impeça a criação da pré-guia caso não exista um Encaminhamento válido vinculado ao Beneficiário.
-- Certifique-se de que a persistência da pré-guia seja feita através do Repository (Spring Data JPA), gerando o `INSERT` correspondente.
-- Certifique-se de seguir a arquitetura em camadas do Spring Boot: Entity, Repository, Service e Controller (REST).
-- Certifique-se de criar `@RestController`s somente para os endpoints que envolvam esta task.
-- Certifique-se de implementar web services REST (ex: `POST /pre-guias`, `GET /pre-guias/{id}`) para criação e consulta da pré-guia.
-- Certifique-se de que o cliente (front-end/consumidor) consuma os web services REST criados.
+- Certifique-se que não seja possível criar uma pré-guia sem um encaminhamento médico válido vinculado ao beneficiário.
+- Certifique-se que pré-guia exiga a seleção de uma OCS credenciada dentre as disponíveis no sistema.
+- Certifique-se que a pré-guia exiga ao menos um procedimento/exame informado antes de ser enviada.
+- Certifique-se que a pré-guia criada fique vinculada ao beneficiário logado e ao encaminhamento correspondente.
